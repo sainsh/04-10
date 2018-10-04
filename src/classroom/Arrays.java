@@ -15,7 +15,7 @@ public class Arrays {
 
         for (int counter = 0; counter < marks.length; counter++) { //kører array igennem
 
-            System.out.println(marks[counter]); // printer hvert mark
+            System.out.println("marks "+ counter + " is " + marks[counter]); // printer hvert mark
             sum += marks[counter]; // lægger mark til sum
         }
 
