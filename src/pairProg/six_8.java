@@ -5,20 +5,20 @@ import java.util.Scanner;
 public class six_8 {
 
     public static void main(String[] args) {
-        Scanner in  = new Scanner(System.in);
+        int j=20;
 
-        System.out.print("Enter m for mile or k for kilometer and value: ");
-        String choice =  in.next();
-        double value;
+        System.out.printf("%15s %15s %10s %15s %15s \n","miles", "kilometers","|", "kilometers", "miles");
+        System.out.println("_______________________________________________________________________________");
 
-        if(choice.charAt(0)== 'm'){
-            value = in.nextDouble();
-            System.out.println(value + " miles is " + mileToKilometer(value) + " kilometers");
-        }else if (choice.charAt(0) == 'k'){
-            value = in.nextDouble();
-            System.out.println(value + " kilometees is " + kilometerToMile(value) + " milss");
+        for(int i =1; i<=10; i++){
 
-        }else System.out.println("wrong input");
+            System.out.printf("%15s %15.2f %10s %15s %15.2f \n",i, mileToKilometer(i),"|", j,kilometerToMile(j));
+
+            j+=5;
+
+        }
+
+
 
 
 

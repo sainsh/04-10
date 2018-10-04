@@ -10,7 +10,7 @@ public class six_20 {
         System.out.println("Ener a string");
         String s = in.next();
 
-        System.out.printf("number of letters in %d is %s",s,countLetter(s));
+        System.out.printf("number of letters in %s is %d",s,countLetter(s));
 
     }
 
