@@ -7,7 +7,7 @@ public class Main {
         Hund fido = new Hund();
         Hund puli = new Hund();
 
-        fido.setAntalBen(2);
+
 
         System.out.println(fido.getAntalBen());
 

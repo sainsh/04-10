@@ -1,19 +1,22 @@
 package classroom;
 
-import java.awt.*;
+
+import javafx.scene.paint.Color;
 
 public class Hund {
 
     // 1. Member variable, class variable, klassse variabler, data member
     private int antalBen = 4;
     private String navn = "";
-    private String race ="";
-    private double stoerrelseKilogram=0;
-    private Color farve = Color.BLACK;
+    private String race = "";
+    private double stoerrelseKilogram = 0;
+    private Color farve = Color.BEIGE;
     private int alder = 0;
 
     //2. Constructor, Konstruktør
-
+    public Hund() {
+        System.out.println("Et nyt hundeobjekt er oprettet.");
+    }
 
     //3. Methods, Metoder, functions
     public void spis() {
