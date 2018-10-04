@@ -16,7 +16,16 @@ public class six_two {
 
     public static int mulDigites(long digites){
 
-        int mult = 0;
+        int mult = 1;
+
+
+        while(digites != 0) {
+
+            mult *= digites % 10;
+            digites /= 10;
+
+
+        }
 
         return mult;
     }
