@@ -28,7 +28,7 @@ public class Hund {
     }
 
     public void goe() {
-
+        System.out.println("bork bork");
     }
 
     public void sidde() {

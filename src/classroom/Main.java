@@ -16,6 +16,8 @@ public class Main {
         System.out.println(fido.getAntalBen());
 
         System.out.println(fido.getFarve());
+
+
     }
 
 }
